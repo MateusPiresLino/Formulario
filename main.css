@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 910px;
+    background-color: #FBFBFB;
+}
+
+.container_form {
+    margin: auto;
+    width: 384px;
+    height: 404px;
+    box-shadow: 0 0 5px 0;
+    border-radius: 8px;
+    background-color: #fff;
+
+    & form {
+        margin: 0 30px;
+        & h1 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    
+        & label, input {
+            margin-bottom: 10px;
+        }
+    }
+}
